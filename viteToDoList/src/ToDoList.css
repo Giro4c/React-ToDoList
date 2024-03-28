@@ -1,0 +1,55 @@
+button > * {
+  width: 30px;
+  height: 30px;
+}
+
+.list-tasks, .to-do-list {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.complete {
+  text-decoration:line-through;
+}
+
+.task {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.task-item {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 60px;
+  background-color: #262626;;
+
+}
+
+.infos {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.task-operators {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: right;
+  gap: 5px;
+}
+
+.calendar {
+  float: right;
+}
+
